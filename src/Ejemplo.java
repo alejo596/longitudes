@@ -7,6 +7,7 @@ public class Ejemplo
     public static void main(String[] args)
     {
         int pies;
+        int pies2=2;
         int pulgadas;
         int totalPulgadas;
         double centimetros;
@@ -18,7 +19,7 @@ public class Ejemplo
         System.out.println("--------------------------");
         System.out.println("Los numeros que ingreso son "+ pies + " para pies y "
                 + pulgadas + " para pulgadas.");
-        totalPulgadas = PULGADAS_POR_PIE * pies + pulgadas;
+        totalPulgadas = PULGADAS_POR_PIE * pies + pulgadas+pies2;
         System.out.println("--------------------------");
         System.out.println("El numero total de pulgadas = " + totalPulgadas);
         centimetros = totalPulgadas * CENTIMETROS_POR_PULGADA;
